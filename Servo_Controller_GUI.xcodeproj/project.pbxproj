@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D937004A15BDB24A00784729 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = D937004915BDB24A00784729 /* AppController.m */; };
+		D937004D15BDB68300784729 /* hid_MACOSX.c in Sources */ = {isa = PBXBuildFile; fileRef = D937004B15BDB68300784729 /* hid_MACOSX.c */; };
+		D937005015BDB6DB00784729 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D937004F15BDB6DB00784729 /* CoreFoundation.framework */; };
+		D937005215BDB6E600784729 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D937005115BDB6E600784729 /* IOKit.framework */; };
+		D937FFCC15BC8B8B00784729 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D937FFCB15BC8B8B00784729 /* Cocoa.framework */; };
+		D937FFD615BC8B8B00784729 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D937FFD415BC8B8B00784729 /* InfoPlist.strings */; };
+		D937FFD815BC8B8B00784729 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D937FFD715BC8B8B00784729 /* main.m */; };
+		D937FFDC15BC8B8B00784729 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D937FFDA15BC8B8B00784729 /* Credits.rtf */; };
+		D937FFDF15BC8B8B00784729 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D937FFDE15BC8B8B00784729 /* AppDelegate.m */; };
+		D937FFE215BC8B8B00784729 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D937FFE015BC8B8B00784729 /* MainMenu.xib */; };
+		D9BF883E16043CB5009E1443 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D9BF883D16043CB5009E1443 /* icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D937004815BDB24A00784729 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		D937004915BDB24A00784729 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+		D937004B15BDB68300784729 /* hid_MACOSX.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hid_MACOSX.c; sourceTree = "<group>"; };
+		D937004F15BDB6DB00784729 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		D937005115BDB6E600784729 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		D937FFC715BC8B8B00784729 /* Servo_Controller_GUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Servo_Controller_GUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D937FFCB15BC8B8B00784729 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D937FFCE15BC8B8B00784729 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D937FFCF15BC8B8B00784729 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D937FFD015BC8B8B00784729 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D937FFD315BC8B8B00784729 /* Servo_Controller_GUI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Servo_Controller_GUI-Info.plist"; sourceTree = "<group>"; };
+		D937FFD515BC8B8B00784729 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D937FFD715BC8B8B00784729 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D937FFD915BC8B8B00784729 /* Servo_Controller_GUI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Servo_Controller_GUI-Prefix.pch"; sourceTree = "<group>"; };
+		D937FFDB15BC8B8B00784729 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		D937FFDD15BC8B8B00784729 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D937FFDE15BC8B8B00784729 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D937FFE115BC8B8B00784729 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D937FFE915BC8B8B00784729 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		D9BF883D16043CB5009E1443 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D937FFC415BC8B8B00784729 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D937005215BDB6E600784729 /* IOKit.framework in Frameworks */,
+				D937005015BDB6DB00784729 /* CoreFoundation.framework in Frameworks */,
+				D937FFCC15BC8B8B00784729 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D937FFBC15BC8B8B00784729 = {
+			isa = PBXGroup;
+			children = (
+				D9BF883D16043CB5009E1443 /* icon.png */,
+				D937005115BDB6E600784729 /* IOKit.framework */,
+				D937004F15BDB6DB00784729 /* CoreFoundation.framework */,
+				D937FFD115BC8B8B00784729 /* Servo_Controller_GUI */,
+				D937FFCA15BC8B8B00784729 /* Frameworks */,
+				D937FFC815BC8B8B00784729 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D937FFC815BC8B8B00784729 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D937FFC715BC8B8B00784729 /* Servo_Controller_GUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D937FFCA15BC8B8B00784729 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D937FFCB15BC8B8B00784729 /* Cocoa.framework */,
+				D937FFE915BC8B8B00784729 /* SenTestingKit.framework */,
+				D937FFCD15BC8B8B00784729 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D937FFCD15BC8B8B00784729 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D937FFCE15BC8B8B00784729 /* AppKit.framework */,
+				D937FFCF15BC8B8B00784729 /* CoreData.framework */,
+				D937FFD015BC8B8B00784729 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D937FFD115BC8B8B00784729 /* Servo_Controller_GUI */ = {
+			isa = PBXGroup;
+			children = (
+				D937004B15BDB68300784729 /* hid_MACOSX.c */,
+				D937FFDD15BC8B8B00784729 /* AppDelegate.h */,
+				D937FFDE15BC8B8B00784729 /* AppDelegate.m */,
+				D937004815BDB24A00784729 /* AppController.h */,
+				D937004915BDB24A00784729 /* AppController.m */,
+				D937FFE015BC8B8B00784729 /* MainMenu.xib */,
+				D937FFD215BC8B8B00784729 /* Supporting Files */,
+			);
+			path = Servo_Controller_GUI;
+			sourceTree = "<group>";
+		};
+		D937FFD215BC8B8B00784729 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D937FFD315BC8B8B00784729 /* Servo_Controller_GUI-Info.plist */,
+				D937FFD415BC8B8B00784729 /* InfoPlist.strings */,
+				D937FFD715BC8B8B00784729 /* main.m */,
+				D937FFD915BC8B8B00784729 /* Servo_Controller_GUI-Prefix.pch */,
+				D937FFDA15BC8B8B00784729 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D937FFC615BC8B8B00784729 /* Servo_Controller_GUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D937FFF915BC8B8C00784729 /* Build configuration list for PBXNativeTarget "Servo_Controller_GUI" */;
+			buildPhases = (
+				D937FFC315BC8B8B00784729 /* Sources */,
+				D937FFC415BC8B8B00784729 /* Frameworks */,
+				D937FFC515BC8B8B00784729 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Servo_Controller_GUI;
+			productName = Servo_Controller_GUI;
+			productReference = D937FFC715BC8B8B00784729 /* Servo_Controller_GUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D937FFBE15BC8B8B00784729 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = D937FFC115BC8B8B00784729 /* Build configuration list for PBXProject "Servo_Controller_GUI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D937FFBC15BC8B8B00784729;
+			productRefGroup = D937FFC815BC8B8B00784729 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D937FFC615BC8B8B00784729 /* Servo_Controller_GUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D937FFC515BC8B8B00784729 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D937FFD615BC8B8B00784729 /* InfoPlist.strings in Resources */,
+				D937FFDC15BC8B8B00784729 /* Credits.rtf in Resources */,
+				D937FFE215BC8B8B00784729 /* MainMenu.xib in Resources */,
+				D9BF883E16043CB5009E1443 /* icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D937FFC315BC8B8B00784729 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D937FFD815BC8B8B00784729 /* main.m in Sources */,
+				D937FFDF15BC8B8B00784729 /* AppDelegate.m in Sources */,
+				D937004A15BDB24A00784729 /* AppController.m in Sources */,
+				D937004D15BDB68300784729 /* hid_MACOSX.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D937FFD415BC8B8B00784729 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D937FFD515BC8B8B00784729 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D937FFDA15BC8B8B00784729 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D937FFDB15BC8B8B00784729 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		D937FFE015BC8B8B00784729 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D937FFE115BC8B8B00784729 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D937FFF715BC8B8C00784729 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D937FFF815BC8B8C00784729 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D937FFFA15BC8B8C00784729 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Servo_Controller_GUI/Servo_Controller_GUI-Prefix.pch";
+				INFOPLIST_FILE = "Servo_Controller_GUI/Servo_Controller_GUI-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D937FFFB15BC8B8C00784729 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Servo_Controller_GUI/Servo_Controller_GUI-Prefix.pch";
+				INFOPLIST_FILE = "Servo_Controller_GUI/Servo_Controller_GUI-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D937FFC115BC8B8B00784729 /* Build configuration list for PBXProject "Servo_Controller_GUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D937FFF715BC8B8C00784729 /* Debug */,
+				D937FFF815BC8B8C00784729 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D937FFF915BC8B8C00784729 /* Build configuration list for PBXNativeTarget "Servo_Controller_GUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D937FFFA15BC8B8C00784729 /* Debug */,
+				D937FFFB15BC8B8C00784729 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D937FFBE15BC8B8B00784729 /* Project object */;
+}
